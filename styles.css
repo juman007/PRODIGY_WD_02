@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=1b2b48&c2=5c71b8&gt=r&gd=dtr
+*/
+    width: 100vw;
+    height: 100vh;
+    background: #1B2B48;
+    background-repeat: no-repeat;
+    background: radial-gradient(at right top, #1B2B48, #5C71B8);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.box {
+    background: radial-gradient(at right top, #1F263E, #2C4470);
+    width: 400px;
+    height: 600px;
+    -webkit-box-shadow: 0px 0px 19px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 19px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 19px 4px rgba(0, 0, 0, 0.75);
+    background-repeat: no-repeat;
+
+
+}
+
+.ux-img {
+    width: 250%;
+    height: 250%;
+    position: relative;
+    left: -272px;
+    bottom: -45px;
+    background-image: url("./assets/shape\ by\ juman.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* z-index: 5; */
+    color: white;
+    font-size: 77px;
+    margin-right: 48px;
+    font-weight: bolder;
+    position: relative;
+    top: 42px;
+}
+
+.txt {
+    font-size: 25px;
+    color: orange
+}
+
+
+
+h3 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    width: 148px;
+    letter-spacing: 1px;
+    margin: auto;
+    position: relative;
+    left: -27px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    left: -38px;
+    transition: all 0.3 ease-in-out;
+}
+
+.buttons button {
+    margin-left: 26px;
+    padding: 8px 25px;
+    font-size: 23px;
+    border-radius: 25px;
+    border: none;
+    box-shadow: 14px 16px 38px -9px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.buttons :nth-child(1) {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.buttons :nth-child(1):hover {
+    color: red;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.buttons :nth-child(2) {
+    color: blue;
+    background-color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.buttons :nth-child(2):hover {
+    color: black;
+    background-color: rgb(17, 250, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.buttons :nth-child(3) {
+    background-color: rgb(0, 246, 246);
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.buttons :nth-child(3):hover {
+    color: white;
+    background-color: rgb(89, 0, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.tlap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 109px;
+    left: -170px;
+    font-size: 35px;
+
+}
+
+.ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    position: fixed;
+    font-size: 26px;
+    box-shadow: 3px 2px 30px 1px #000000bf;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.ico:hover {
+    background-color: red;
+    color: white;
+}
+
+.laps {
+    /* border: 5px solid red; */
+    text-align: left;
+    margin-top: 20px;
+}
+
+.laps li {
+    /* border: 5px solid red; */
+    list-style: none;
+    font-size: 34px;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    right: -182px;
+    top: -29px;
+    font-size: 25px;
+}
+
+/* .laps {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.laps li {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 5px;
+} */
